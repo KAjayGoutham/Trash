@@ -19,6 +19,8 @@ public class CHReplicationPolicyComposition {
 		pw.flush();
 		pw.close();
 
+		System.out.println("this is agentbased composition");
+		
 	}
 
 
