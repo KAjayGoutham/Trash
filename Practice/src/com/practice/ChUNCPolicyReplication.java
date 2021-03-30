@@ -8,10 +8,13 @@ public class ChUNCPolicyReplication {
 	
 	public static void main(String[] args) {
 		
+		
+		
+		
 	}
 	
 	
-	public HashMap<String,Object> reName(String  policy_name,String  policy_type,String  product_type,String  source_id,String  primary_task_id,String  primary_task_type,String  parent_id,
+	public HashMap<String,Object> composeCHUNCSecondaryPolicy(String  policy_name,String  policy_type,String  product_type,String  source_id,String  primary_task_id,String  primary_task_type,String  parent_id,
 			String  backup_destination_type,String  is_password_protect,String  rps_server_id,String  session_password,String  exclude_names,String  exclude_larger_than,
 			String  proxy_id,String  primary_destination_id,String  is_draftfalse,String  organization_id, String secondary_task_id,String secondary_task_type,String secondaryTaskDestinationId
 			,String replication_site_type,String replication_site_id){

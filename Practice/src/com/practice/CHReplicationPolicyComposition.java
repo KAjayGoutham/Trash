@@ -12,10 +12,10 @@ public class CHReplicationPolicyComposition {
 		
 
 		CHReplicationPolicyComposition ch = new CHReplicationPolicyComposition();
-		HashMap<String,Object> map = ch.chReplicationPolicy("chPolicy", "agent_based", "udp", "123456", "123456789", "09876543", "udpagentbased", "recoveryPointServer", true, "93u438jdbjddcsdvsc", "Mclaren@2020", "software", "234567876543245678654", "12345676543234", "chreplication", "234567765432", "arcserve_cloud", "2345676543efgh76543");
+		//HashMap<String,Object> map = ch.chReplicationPolicy("chPolicy", "agent_based", "udp", "123456", "123456789", "09876543", "udpagentbased", "recoveryPointServer", true, "93u438jdbjddcsdvsc", "Mclaren@2020", "software", "234567876543245678654", "12345676543234", "chreplication", "234567765432", "arcserve_cloud", "2345676543efgh76543");
 		
 		PrintWriter pw = new PrintWriter("chcomposition.txt");
-		pw.write(map.toString());
+	//	pw.write(map.toString());
 		pw.flush();
 		pw.close();
 
@@ -102,7 +102,7 @@ public class CHReplicationPolicyComposition {
 		pmap.put("destinations",destinationsList);
 		
 		return pmap;
-
+//this is agentbased policy composition
 	}
 
 
